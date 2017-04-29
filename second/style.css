@@ -1,0 +1,49 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    max-height: 900px;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firstBox {
+    background-color: #4A90E2;
+    height: 100%;
+    width: 30%;
+}
+
+.secondBox {
+    background-color: #50E3C2;
+    height: 100%;
+    width: 30%;}
+
+.thirdBox {
+    background-color: #B8E986;
+    height: 100%;
+    width: 30%;
+    position: relative;
+}
+
+.imagePlaceholder {
+    background-color: #f00;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagePlaceholder p {
+    text-align: center;
+}
